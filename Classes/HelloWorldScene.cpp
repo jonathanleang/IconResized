@@ -37,30 +37,30 @@ bool HelloWorld::init()
     addChild(bg);
     
     // iOS
-    sizes["29x29"] = "Icon-Small.png";
-    sizes["40x40"] = "Icon-Small-40.png";
-    sizes["50x50"] = "Icon-Small-50.png";
-    sizes["57x57"] = "Icon.png";
-    sizes["58x58"] = "Icon-Small@2x.png";
-    sizes["60x60"] = "Icon-60.png";
-    sizes["72x72"] = "Icon-72.png";
-    sizes["76x76"] = "Icon-76.png";
-    sizes["80x80"] = "Icon-Small-40@2x.png";
-    sizes["100x100"] = "Icon-Small-50@2x.png";
-    sizes["114x114"] = "Icon@2x.png";
-    sizes["120x120"] = "Icon-60@2x.png";
-    sizes["144x144"] = "Icon-72@2x.png";
-    sizes["152x152"] = "Icon-76@2x.png";
+    sizes["29x29"] = "Icon-Small";
+    sizes["40x40"] = "Icon-Small-40";
+    sizes["50x50"] = "Icon-Small-50";
+    sizes["57x57"] = "Icon";
+    sizes["58x58"] = "Icon-Small@2x";
+    sizes["60x60"] = "Icon-60";
+    sizes["72x72"] = "Icon-72";
+    sizes["76x76"] = "Icon-76";
+    sizes["80x80"] = "Icon-Small-40@2x";
+    sizes["100x100"] = "Icon-Small-50@2x";
+    sizes["114x114"] = "Icon@2x";
+    sizes["120x120"] = "Icon-60@2x";
+    sizes["144x144"] = "Icon-72@2x";
+    sizes["152x152"] = "Icon-76@2x";
     sizes["512x512"] = "iTunesArtwork";
     sizes["1024x1024"] = "iTunesArtwork@2x";
     
     
     // Android
-    sizes["36x36"] = "Icon-ldpi.png";
-    sizes["48x48"] = "Icon-mdpi.png";
-    sizes["72x72"] = "Icon-hdpi.png";
-    sizes["96x96"] = "Icon-xhdpi.png";
-    sizes["144x144"] = "Icon-xxhdpi.png";
+    sizes["36x36"] = "Icon-ldpi";
+    sizes["48x48"] = "Icon-mdpi";
+    sizes["72x72"] = "Icon-hdpi";
+    sizes["96x96"] = "Icon-xhdpi";
+    sizes["144x144"] = "Icon-xxhdpi";
     
     return true;
 }
