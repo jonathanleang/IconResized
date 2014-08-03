@@ -123,7 +123,7 @@ bool HelloWorld::convert(string filePath)
 
 void HelloWorld::showPreview(Magick::Image image){
     resizeAndWriteImage(image, "preview", "150x150");
-    addImage("preview");
+    addImage("preview.png");
 }
 
 void HelloWorld::resizeAndWriteImage(Magick::Image image, string fileName, string size){
