@@ -3,12 +3,11 @@ IconResized
 
 Drag and Drop images to generate iOS and Android icons
 
-*Platform supported*
+**Platform supported**
 
 - [X] OSX
 - [ ] WINDOWS
 
-*Building*
+**Building OSX**
 
-**OSX**
 > brew install imagemagick
