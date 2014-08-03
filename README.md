@@ -8,6 +8,6 @@ Drag and Drop images to generate iOS and Android icons
 - [X] OSX
 - [ ] WINDOWS
 
-**Building OSX**
+** Library needed on compile **
 
 > brew install imagemagick
